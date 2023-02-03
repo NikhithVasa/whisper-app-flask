@@ -12,6 +12,7 @@ RUN pip install fastapi
 RUN pip install starlette
 RUN pip install uvicorn
 RUN pip install pydantic
+RUN pip install transformers
 
 COPY . .
 
